@@ -10,3 +10,15 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# IDE
+*.iml
+/.idea/**
+.idea/**
+
+# Dependencies
+node_modules/
+
+# Dist
+dist/**
+package-lock.json
