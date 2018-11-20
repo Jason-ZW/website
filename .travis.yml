@@ -1,0 +1,6 @@
+sudo: required
+cache: npm
+before_script:
+- npm install
+script:
+- npm run build:dist
