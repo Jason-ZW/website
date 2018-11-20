@@ -57,18 +57,17 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
-                loader: 'style-loader!css-loader!sass-loader'
+                loader: 'style-loader!css-loader!resolve-url-loader!sass-loader'
             },
             {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader'
-            },
-            {
-                test: /\.(png|jpg)$/,
-                loader: 'url-loader'
+                loader: 'style-loader!css-loader!resolve-url-loader'
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
+                query: {
+                    name: 'img/[name].[ext]'
+                },
                 loader: 'file-loader'
             },
             {

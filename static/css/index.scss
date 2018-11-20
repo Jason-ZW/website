@@ -78,8 +78,8 @@ a, button {
 }
 
 .carousel-indicators {
-    height: 100%;
-    z-index: 0;
+    height: 20px;
+    bottom: 10px;
 }
 
 .carousel-item {
@@ -87,7 +87,7 @@ a, button {
 }
 
 .carousel-indicators li {
-    top: 600px;
+    top: 20px;
 }
 
 .carousel-caption {
