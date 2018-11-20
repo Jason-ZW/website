@@ -4,7 +4,7 @@ body {
     font-family: "Open Sans";
 }
 
-a {
+a, button {
     cursor: pointer;
 }
 
@@ -79,6 +79,7 @@ a {
 
 .carousel-indicators {
     height: 100%;
+    z-index: 0;
 }
 
 .carousel-item {
