@@ -21,4 +21,5 @@ node_modules/
 
 # Dist
 dist/**
+coverage/**
 package-lock.json

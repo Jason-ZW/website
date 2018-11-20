@@ -7,7 +7,8 @@
     "build": "webpack",
     "start": "webpack-dev-server --open",
     "build:dev": "webpack --env=dev --progress --profile --colors",
-    "build:dist": "webpack --env=prod --progress --profile --colors"
+    "build:dist": "webpack --env=prod --progress --profile --colors",
+    "lint": "eslint --ext .js src/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -32,9 +33,14 @@
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^1.0.1",
     "eslint": "^5.9.0",
+    "eslint-loader": "^2.1.1",
     "eslint-plugin-react": "^7.11.1",
+    "expect": "^23.6.0",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "istanbul": "^0.4.5",
+    "jest": "^23.6.0",
+    "mocha": "^5.2.0",
     "redux-devtools": "^3.4.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.25.1",
