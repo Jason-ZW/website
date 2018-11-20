@@ -2,5 +2,10 @@ sudo: required
 cache: npm
 before_script:
 - npm install
+- npm install codecov -g
+env:
+- CODECOV_TOKEN="ffa08c9e-7f21-4c51-9983-6fb4670cd246"
 script:
 - npm run build:dist
+after_success:
+- codecov
