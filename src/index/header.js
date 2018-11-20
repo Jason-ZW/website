@@ -1,10 +1,7 @@
 'use strict';
 
 import React from 'react';
-import {Row, Col, Carousel} from 'react-bootstrap';
-import 'bootstrap/scss/bootstrap.scss';
-import "font-awesome/scss/font-awesome.scss";
-import '../../static/css/index.scss';
+import { Row, Col, Carousel } from 'react-bootstrap';
 
 class TopBar extends React.Component {
     displayName: 'TopBar';
@@ -98,4 +95,4 @@ class Header extends React.Component {
     }
 }
 
-module.exports = {TopBar, Header};
+module.exports = { TopBar, Header };
