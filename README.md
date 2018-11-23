@@ -7,12 +7,18 @@ The website which is written by React...
 
 ### Install Dependencies
 ```
+$ npm install -g webpack
 $ npm install
 ```
 
 ### Build Project
 ```
 $ npm build
+```
+
+### Test Project
+```
+$ npm test
 ```
 
 ### Startup Project
