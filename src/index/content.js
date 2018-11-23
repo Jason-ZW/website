@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col, Button, Breadcrumb } from 'react-bootstrap';
 
 class Section1 extends React.Component {
     displayName: 'Section1';
@@ -89,7 +89,7 @@ class Section2 extends React.Component {
                 <Row>
                     <Col className="flex-column flex-center margin-bottom-30 no-padding-horizontal" sm={12} md={12} lg={6}>
                         <div className="section2-inner-container">
-                            <h3 className="box-title font-title">Leading Computer Repaire Service Company</h3>
+                            <h3 className="box-title font-title align-left">Leading Computer Repaire Service Company</h3>
                             <div className="box-content align-left">
                                 Ostrya is an established New York based company, specialised in
                                 Computer Repairs and Services, We repair out of warranty laptops and Computer
@@ -112,4 +112,45 @@ class Section2 extends React.Component {
     }
 }
 
-module.exports = { Section1, Section2 };
+class Section3 extends React.Component {
+    displayName: 'Section3';
+    constructor() {
+        super();
+    }
+    render() {
+        return (
+            <div className="section3-container">
+                <Row>
+                    <Col className="flex-column flex-center" sm={12} md={12} lg={12}>
+                        <div className="section3-inner-container">
+                            <h3 className="box-title font-title">Our Services</h3>
+                            <div className="box-content">
+                                We are one of the best laptop repairing service provider company in
+                                New York and repair your system at your home/office at very cheapest price
+                            </div>
+                            <div className="our-services">
+                                <div className="section3-breadcrumb">
+                                    <Breadcrumb>
+                                        <Breadcrumb.Item href="#">ALL</Breadcrumb.Item>
+                                        <Breadcrumb.Item href="#">
+                                            HARDWARE
+                                        </Breadcrumb.Item>
+                                        <Breadcrumb.Item href="#">
+                                            LAPTOP
+                                        </Breadcrumb.Item>
+                                        <Breadcrumb.Item href="#">
+                                            NETWORK SUPPORT
+                                        </Breadcrumb.Item>
+                                        <Breadcrumb.Item active>SOFTWARE</Breadcrumb.Item>
+                                    </Breadcrumb>
+                                </div>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+        )
+    }
+}
+
+module.exports = { Section1, Section2, Section3 };

@@ -313,7 +313,7 @@ exports[`renders correctly section2 correctly 1`] = `
         className="section2-inner-container"
       >
         <h3
-          className="box-title font-title"
+          className="box-title font-title align-left"
         >
           Leading Computer Repaire Service Company
         </h3>
@@ -344,6 +344,110 @@ exports[`renders correctly section2 correctly 1`] = `
         <div
           className="section2-img"
         />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly section3 correctly 1`] = `
+<div
+  className="section3-container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="flex-column flex-center col-lg-12 col-md-12 col-sm-12"
+    >
+      <div
+        className="section3-inner-container"
+      >
+        <h3
+          className="box-title font-title"
+        >
+          Our Services
+        </h3>
+        <div
+          className="box-content"
+        >
+          We are one of the best laptop repairing service provider company in New York and repair your system at your home/office at very cheapest price
+        </div>
+        <div
+          className="our-services"
+        >
+          <div
+            className="section3-breadcrumb"
+          >
+            <nav
+              aria-label="breadcrumb"
+            >
+              <ol
+                className="breadcrumb"
+                role="navigation"
+              >
+                <li
+                  className="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                  >
+                    ALL
+                  </a>
+                </li>
+                <li
+                  className="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                  >
+                    HARDWARE
+                  </a>
+                </li>
+                <li
+                  className="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                  >
+                    LAPTOP
+                  </a>
+                </li>
+                <li
+                  className="breadcrumb-item"
+                >
+                  <a
+                    href="#"
+                    onClick={[Function]}
+                    onKeyDown={[Function]}
+                    role="button"
+                  >
+                    NETWORK SUPPORT
+                  </a>
+                </li>
+                <li
+                  aria-current="page"
+                  className="breadcrumb-item active"
+                >
+                  <span
+                    className="active"
+                  >
+                    SOFTWARE
+                  </span>
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
       </div>
     </div>
   </div>

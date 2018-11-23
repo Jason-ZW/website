@@ -163,7 +163,7 @@ a, button {
     text-align: center;
 }
 
-.section1-container, .section2-container {
+.section1-container, .section2-container, section3-container {
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 30px;
@@ -175,6 +175,14 @@ a, button {
     background-color: #f4f4f4;
     margin-top: 32px;
     padding: 0 40px 40px;
+}
+
+.section3-inner-container {
+    min-width: 400px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 }
 
 .section1-container .flex-column {
@@ -251,7 +259,7 @@ a, button {
     font-weight: 600;
 }
 
-.section2-container .box-title::after {
+.section2-container .box-title::after, .section3-container .box-title::after {
     position: relative;
     content: '';
     display: block;
@@ -261,6 +269,11 @@ a, button {
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: #009cff;
+}
+
+.section3-container .box-title::after {
+    left: 50%;
+    margin-left: -15px;
 }
 
 .align-left {
@@ -284,6 +297,61 @@ a, button {
     padding: 0;
 }
 
+.section3-breadcrumb{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.section3-breadcrumb ol {
+    margin: 0;
+    padding: 15px 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+.section3-breadcrumb ol li {
+    position: relative;
+    display: inline-block;
+}
+
+.section3-breadcrumb li.active a, .load-filter li a:hover {
+    color: #333;
+}
+
+.section3-breadcrumb li.active span {
+    line-height: normal;
+    padding: 0 10px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    color: #009cff;
+}
+
+.section3-breadcrumb li a {
+    line-height: normal;
+    padding: 0 10px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    position: relative;
+    content: '/';
+    color: #c0c0c0;
+    font-size: 12px;
+}
+
+.breadcrumb {
+    background-color: #fff;
+}
+
 @media (min-width: 768px) {
     .section1-container {
         width: 750+200px;
@@ -300,6 +368,6 @@ a, button {
     }
 
     .section2-container {
-            width: 750+500px;
+        width: 750+500px;
     }
 }
