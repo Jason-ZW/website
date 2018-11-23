@@ -2,7 +2,7 @@
 import expect from 'expect';
 import React from 'react';
 import { TopBar, Header } from '../../src/index/header';
-import { Section1 } from '../../src/index/content';
+import { Section1, Section2 } from '../../src/index/content';
 import renderer from 'react-test-renderer';
 
 describe('renders correctly', () => {
@@ -16,6 +16,10 @@ describe('renders correctly', () => {
     });
     it('section1 correctly', () => {
         const tree = renderer.create(<Section1 />).toJSON();
+        expect(tree).toMatchSnapshot();
+    });
+    it('section2 correctly', () => {
+        const tree = renderer.create(<Section2/>).toJSON();
         expect(tree).toMatchSnapshot();
     });
 });

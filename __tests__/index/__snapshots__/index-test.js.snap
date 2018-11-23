@@ -299,6 +299,57 @@ exports[`renders correctly section1 correctly 1`] = `
 </div>
 `;
 
+exports[`renders correctly section2 correctly 1`] = `
+<div
+  className="section2-container"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="flex-column flex-center margin-bottom-30 no-padding-horizontal col-lg-6 col-md-12 col-sm-12"
+    >
+      <div
+        className="section2-inner-container"
+      >
+        <h3
+          className="box-title font-title"
+        >
+          Leading Computer Repaire Service Company
+        </h3>
+        <div
+          className="box-content align-left"
+        >
+          Ostrya is an established New York based company, specialised in Computer Repairs and Services, We repair out of warranty laptops and Computer
+        </div>
+        <div
+          className="align-left button-top-30"
+        >
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            type="button"
+          >
+            View Services
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="flex-column flex-center flex-no-space-column margin-bottom-30 col-lg-6 col-md-12 col-sm-12"
+    >
+      <div
+        className="section2-inner-no-space-container"
+      >
+        <div
+          className="section2-img"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`renders correctly topbar correctly 1`] = `
 <div
   className="top-bar"
