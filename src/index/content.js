@@ -121,7 +121,7 @@ class Section3 extends React.Component {
         return (
             <div className="section3-container">
                 <Row>
-                    <Col className="flex-column flex-center" sm={12} md={12} lg={12}>
+                    <Col className="flex-column flex-center no-padding-horizontal" sm={12} md={12} lg={12}>
                         <div className="section3-inner-container">
                             <h3 className="box-title font-title">Our Services</h3>
                             <div className="box-content">
@@ -153,4 +153,65 @@ class Section3 extends React.Component {
     }
 }
 
-module.exports = { Section1, Section2, Section3 };
+class Section4 extends React.Component {
+    displayName: 'Section3';
+    constructor() {
+        super();
+    }
+    render() {
+        return (
+            <div className="section4-container">
+                <div className="section4-inner-container">
+                    <Row>
+                        <Col className="flex-column flex-center" sm={12} md={6} lg={3}>
+                            <div className="box-icon width-100 height-100">
+                                <span className="font-size-26">
+                                    <i className="fa fa-smile-o"/>
+                                </span>
+                                <div className="counter line-height-30">
+                                    2750
+                                </div>
+                                <h4 className="box-title-1">Happy Customers</h4>
+                            </div>
+                        </Col>
+                        <Col className="flex-column flex-center" sm={12} md={6} lg={3}>
+                            <div className="box-icon width-100 height-100">
+                                <span className="font-size-26">
+                                    <i className="fa fa-laptop"/>
+                                </span>
+                                <div className="counter line-height-30">
+                                    1250
+                                </div>
+                                <h4 className="box-title-1">Happy Customers</h4>
+                            </div>
+                        </Col>
+                        <Col className="flex-column flex-center" sm={12} md={6} lg={3}>
+                            <div className="box-icon width-100 height-100">
+                                <span className="font-size-26">
+                                    <i className="fa fa-television"/>
+                                </span>
+                                <div className="counter line-height-30">
+                                    950
+                                </div>
+                                <h4 className="box-title-1">Happy Customers</h4>
+                            </div>
+                        </Col>
+                        <Col className="flex-column flex-center" sm={12} md={6} lg={3}>
+                            <div className="box-icon width-100 height-100">
+                                <span className="font-size-26">
+                                    <i className="fa fa-apple"/>
+                                </span>
+                                <div className="counter line-height-30">
+                                    350
+                                </div>
+                                <h4 className="box-title-1">Happy Customers</h4>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </div>
+        )
+    }
+}
+
+module.exports = { Section1, Section2, Section3, Section4 };
