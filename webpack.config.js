@@ -2,13 +2,13 @@
 
 let path = require('path');
 let webpack = require('webpack');
-let htmlWebpackPlugin = require('html-webpack-plugin');
+let HtmlWebpackPlugin = require('html-webpack-plugin');
 let publicPath = '/dist/build/';
 
 module.exports = {
     // development, production
-    mode: 'development',
-    devtool: 'cheap-module-eval-source-map',
+    mode: 'production',
+    // devtool: 'cheap-module-eval-source-map',
     entry: {
         index: [
             'webpack-dev-server/client?http://localhost:3000',
@@ -23,7 +23,7 @@ module.exports = {
         sourceMapFilename: '[name].map',
     },
     plugins: [
-        new htmlWebpackPlugin({
+        new HtmlWebpackPlugin({
             title: 'Hot Module Replacement',
             template: './src/index.html'
         }),
@@ -94,4 +94,5 @@ module.exports = {
         contentBase: path.join(__dirname, publicPath),
         hot: true
     },
+    performance: { hints: false },
 };
