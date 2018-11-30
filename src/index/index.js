@@ -2,7 +2,6 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Row, Col, Carousel, Button } from 'react-bootstrap';
 import { TopBar, Header } from './header';
 import { Section1, Section2, Section3, Section4 } from './content';
 import 'bootstrap/scss/bootstrap.scss';
