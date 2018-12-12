@@ -16,7 +16,7 @@ class TopBar extends React.Component {
                         <Col sm={8} md={8}>
                             <div className="top-bar-left">
                                 <span>
-                                    <i className="fa fa-envelope-o"/> liwenhao@think-show.com
+                                    <i className="fa fa-envelope-o"/> support@think-show.com
                                 </span>
                             </div>
                         </Col>

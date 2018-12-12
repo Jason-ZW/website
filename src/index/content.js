@@ -2,6 +2,9 @@
 
 import React from 'react';
 import { Row, Col, Button, Breadcrumb, Carousel } from 'react-bootstrap';
+import '../../static/img/service-01-600x400.jpg';
+import '../../static/img/service-02-600x400.jpg';
+import '../../static/img/service-03-600x400.jpg';
 
 class Section1 extends React.Component {
     displayName: 'Section1';
@@ -265,4 +268,83 @@ class Section5 extends React.Component {
     }
 }
 
-module.exports = { Section1, Section2, Section3, Section4, Section5 };
+class Section6 extends React.Component {
+    displayName: 'Section6';
+
+    constructor() {
+        super();
+    }
+    render() {
+        return (
+            <div className="section6-container">
+                <div className="section6-inner-container">
+                    <Row>
+                        <Col className="flex-column flex-center" sm={12} md={12} lg={4}>
+                            <div className="section6-img">
+                                <img src="img/service-01-600x400.jpg" width="300" height="190" alt="service-01" />
+                            </div>
+                            <div className="section6-title">
+                                <p>Data Backup & Recovery</p>
+                            </div>
+                            <div className="section6-content">
+                                We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff.
+                            </div>
+                        </Col>
+                        <Col className="flex-column flex-center" sm={12} md={12} lg={4}>
+                            <div className="section6-img">
+                                <img src="img/service-02-600x400.jpg" width="300" height="190" alt="service-02" />
+                            </div>
+                            <div className="section6-title">
+                                <p>Laptop Repair</p>
+                            </div>
+                            <div className="section6-content">
+                                We are one of the leading computer service center, we undertake desktop and laptop service with all major brands.
+                            </div>
+                        </Col>
+                        <Col className="flex-column flex-center" sm={12} md={12} lg={4}>
+                            <div className="section6-img">
+                                <img src="img/service-03-600x400.jpg" width="300" height="190" alt="service-03" />
+                            </div>
+                            <div className="section6-title">
+                                <p>Computer Repair</p>
+                            </div>
+                            <div className="section6-content">
+                                We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff.
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </div>
+        )
+    }
+}
+
+class Section7 extends React.Component {
+    displayName: 'Section7';
+    constructor() {
+        super();
+    }
+    render() {
+        return (
+            <div className="section7-container">
+                <div className="section7-inner-container">
+                    <Row>
+                        <Col sm={12} md={8} lg={8}>
+                            <h3 className="section7-h3">
+                                We’ll repair and diagnose any computer problems
+                            </h3>
+                            <p className="section7-p">
+                                10 Years of experience in Laptop & Computer Repair
+                            </p>
+                        </Col>
+                        <Col sm={12} md={4} lg={4} className="flex-column flex-center">
+                            <Button bsSize="large" className="section7-btn">Contact Us</Button>
+                        </Col>
+                    </Row>
+                </div>
+            </div>
+        )
+    }
+}
+
+module.exports = { Section1, Section2, Section3, Section4, Section5, Section6, Section7 };

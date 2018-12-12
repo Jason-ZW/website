@@ -655,6 +655,140 @@ exports[`renders correctly section5 correctly 1`] = `
 </div>
 `;
 
+exports[`renders correctly section6 correctly 1`] = `
+<div
+  className="section6-container"
+>
+  <div
+    className="section6-inner-container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="flex-column flex-center col-lg-4 col-md-12 col-sm-12"
+      >
+        <div
+          className="section6-img"
+        >
+          <img
+            alt="service-01"
+            height="190"
+            src="img/service-01-600x400.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          className="section6-title"
+        >
+          <p>
+            Data Backup & Recovery
+          </p>
+        </div>
+        <div
+          className="section6-content"
+        >
+          We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff.
+        </div>
+      </div>
+      <div
+        className="flex-column flex-center col-lg-4 col-md-12 col-sm-12"
+      >
+        <div
+          className="section6-img"
+        >
+          <img
+            alt="service-02"
+            height="190"
+            src="img/service-02-600x400.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          className="section6-title"
+        >
+          <p>
+            Laptop Repair
+          </p>
+        </div>
+        <div
+          className="section6-content"
+        >
+          We are one of the leading computer service center, we undertake desktop and laptop service with all major brands.
+        </div>
+      </div>
+      <div
+        className="flex-column flex-center col-lg-4 col-md-12 col-sm-12"
+      >
+        <div
+          className="section6-img"
+        >
+          <img
+            alt="service-03"
+            height="190"
+            src="img/service-03-600x400.jpg"
+            width="300"
+          />
+        </div>
+        <div
+          className="section6-title"
+        >
+          <p>
+            Computer Repair
+          </p>
+        </div>
+        <div
+          className="section6-content"
+        >
+          We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly section7 correctly 1`] = `
+<div
+  className="section7-container"
+>
+  <div
+    className="section7-inner-container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-8 col-md-8 col-sm-12"
+      >
+        <h3
+          className="section7-h3"
+        >
+          We’ll repair and diagnose any computer problems
+        </h3>
+        <p
+          className="section7-p"
+        >
+          10 Years of experience in Laptop & Computer Repair
+        </p>
+      </div>
+      <div
+        className="flex-column flex-center col-lg-4 col-md-4 col-sm-12"
+      >
+        <button
+          bsSize="large"
+          className="section7-btn btn btn-primary"
+          disabled={false}
+          type="button"
+        >
+          Contact Us
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`renders correctly topbar correctly 1`] = `
 <div
   className="top-bar"
@@ -675,7 +809,7 @@ exports[`renders correctly topbar correctly 1`] = `
             <i
               className="fa fa-envelope-o"
             />
-             liwenhao@think-show.com
+             support@think-show.com
           </span>
         </div>
       </div>
