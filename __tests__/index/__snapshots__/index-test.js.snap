@@ -589,7 +589,7 @@ exports[`renders correctly topbar correctly 1`] = `
             <i
               className="fa fa-envelope-o"
             />
-             supporter@3-nice.com
+             liwenhao@think-show.com
           </span>
         </div>
       </div>
