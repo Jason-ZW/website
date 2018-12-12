@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import { Row, Col, Button, Breadcrumb } from 'react-bootstrap';
+import { Row, Col, Button, Breadcrumb, Carousel } from 'react-bootstrap';
 
 class Section1 extends React.Component {
     displayName: 'Section1';
@@ -154,7 +154,7 @@ class Section3 extends React.Component {
 }
 
 class Section4 extends React.Component {
-    displayName: 'Section3';
+    displayName: 'Section4';
     constructor() {
         super();
     }
@@ -214,4 +214,55 @@ class Section4 extends React.Component {
     }
 }
 
-module.exports = { Section1, Section2, Section3, Section4 };
+class Section5 extends React.Component {
+    displayName: 'Section5';
+    constructor() {
+        super();
+    }
+    render() {
+        return (
+            <div className="section5-container">
+                <div className="section5-inner-container">
+                    <Row>
+                        <Col sm={8}>
+                            <div className="section5-header">
+                                <h3 className="box-title section5-title">
+                                    What Clients Say?
+                                </h3>
+                            </div>
+                            <div className="section5-text">
+                                Here are testimonials from clients that we have worked with and are happy to share<br />
+                                their opinion about the process and the results.
+                            </div>
+                            <div className="empty-space">
+                            </div>
+                            <div className="section5-carousel">
+                                <Carousel controls={false} indicators={false} >
+                                    <Carousel.Item>
+                                        <Carousel.Caption>
+                                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <Carousel.Caption>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <Carousel.Caption>
+                                            <p>
+                                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                            </p>
+                                        </Carousel.Caption>
+                                    </Carousel.Item>
+                                </Carousel>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </div>
+        )
+    }
+}
+
+module.exports = { Section1, Section2, Section3, Section4, Section5 };
