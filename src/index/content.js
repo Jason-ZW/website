@@ -347,4 +347,37 @@ class Section7 extends React.Component {
     }
 }
 
-module.exports = { Section1, Section2, Section3, Section4, Section5, Section6, Section7 };
+class Section8 extends React.Component {
+    displayName: 'Section8';
+    constructor() {
+        super();
+    }
+    render() {
+        return (
+            <div className="section8-container">
+                <div className="section8-inner-container">
+                    <Row>
+                        <Col className="flex-column flex-center section8-text" sm={12} md={6} lg={6}>
+                            © Copyright 2017. by think-show.com
+                        </Col>
+                        <Col className="flex-column flex-center section8-text" sm={12} md={6} lg={6}>
+                            <div>
+                                <span className="top-bar-span-first">
+                                    &nbsp;<a href="#">Home</a>
+                                </span>
+                                <span className="top-bar-span">
+                                    &nbsp;<a href="#">About Us</a>
+                                </span>
+                                <span className="top-bar-span">
+                                    &nbsp;<a href="#">Contact Us</a>
+                                </span>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </div>
+        )
+    }
+}
+
+module.exports = { Section1, Section2, Section3, Section4, Section5, Section6, Section7, Section8 };

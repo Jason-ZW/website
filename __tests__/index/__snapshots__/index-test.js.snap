@@ -789,6 +789,62 @@ exports[`renders correctly section7 correctly 1`] = `
 </div>
 `;
 
+exports[`renders correctly section8 correctly 1`] = `
+<div
+  className="section8-container"
+>
+  <div
+    className="section8-inner-container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="flex-column flex-center section8-text col-lg-6 col-md-6 col-sm-12"
+      >
+        © Copyright 2017. by think-show.com
+      </div>
+      <div
+        className="flex-column flex-center section8-text col-lg-6 col-md-6 col-sm-12"
+      >
+        <div>
+          <span
+            className="top-bar-span-first"
+          >
+             
+            <a
+              href="#"
+            >
+              Home
+            </a>
+          </span>
+          <span
+            className="top-bar-span"
+          >
+             
+            <a
+              href="#"
+            >
+              About Us
+            </a>
+          </span>
+          <span
+            className="top-bar-span"
+          >
+             
+            <a
+              href="#"
+            >
+              Contact Us
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`renders correctly topbar correctly 1`] = `
 <div
   className="top-bar"
