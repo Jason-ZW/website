@@ -45,7 +45,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^2.0.0",
     "eslint": "^5.9.0",
-    "eslint-loader": "^2.1.1",
+    "eslint-loader": "^3.0.1",
     "eslint-plugin-react": "^7.11.1",
     "expect": "^23.6.0",
     "file-loader": "^2.0.0",
